@@ -6,27 +6,45 @@
   <title>Cas Cloud Solutions</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body class="bg-gray-50 text-gray-900 font-sans">
   <!-- Navbar -->
   <header class="bg-white shadow-md sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold text-blue-600">Cas Cloud Solutions</h1>
-      <nav class="space-x-6 text-sm">
-        <a href="#about" class="hover:text-blue-600">About</a>
-        <a href="#services" class="hover:text-blue-600">Services</a>
-        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      
+      <!-- Company Name -->
+      <div class="flex items-center space-x-4">
+        <span class="text-xl md:text-2xl font-bold text-blue-700 tracking-tight">Cas Cloud Solutions</span>
+      </div>
+      
+      <!-- Navigation -->
+      <nav class="hidden md:flex space-x-6 text-sm font-medium">
+        <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+        <a href="#services" class="text-gray-600 hover:text-blue-600 transition">Services</a>
+        <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
       </nav>
     </div>
   </header>
+  
+<!-- Hero Section -->
+<section class="bg-blue-600 text-white py-24">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
+    
+    <!-- Logo Left -->
+    <div class="flex-shrink-0 pl-10">
+      <img src="images/logo.png" alt="Cas Cloud Solutions Logo" class="h-52 md:h-64 w-auto" />
+    </div>
 
-  <!-- Hero Section -->
-  <section class="bg-blue-600 text-white py-24 text-center">
-    <div class="max-w-3xl mx-auto px-4">
+
+    <!-- Text Right with animation -->
+    <div class="text-center md:text-left max-w-xl hero-text">
       <h2 class="text-4xl md:text-5xl font-bold mb-4">Whatever IT takes</h2>
       <p class="text-lg md:text-xl">Professional Microsoft 365 & Azure consultancy for businesses of all sizes.</p>
     </div>
-  </section>
+
+  </div>
+</section>
 
   <!-- About Section -->
   <section id="about" class="py-16 bg-white">
